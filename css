@@ -1,0 +1,132 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Proxima Nova 
+}
+
+/* Page Background */
+body {
+  background-color: #FFC907; /* Vibrant yellow background */
+  color: #222;
+}
+
+/* --- NAVIGATION BAR --- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.nav-links-left {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Contact Us Button */
+.btn-contact {
+  background-color: #f7f7f0;
+  padding: 8px 18px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  transition: background-color 0.2s;
+}
+
+.btn-contact:hover {
+  background-color: #e2e2d8;
+}
+
+/* --- HERO SECTION --- */
+.hero-section {
+  padding: 20px 50px 60px 50px;
+}
+
+/* LOGO BANNER */
+.logo-container {
+  display: inline-flex;
+  align-items: center;
+  background-color: #fdfdfc;
+  padding: 6px 16px;
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+}
+
+.icon-box {
+  background-color: #f3be2b;
+  padding: 4px 8px;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+
+.logo-text {
+  font-family: Proxima nova
+  font-size: 32px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+/* HERO CONTENT LAYOUT */
+.hero-content {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+/* LEFT TEXT CARD */
+.text-card {
+  background-color: #dedebd; /* Muted greenish-tinted box */
+  padding: 30px 25px;
+  width: 320px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid #c8c8a2;
+}
+
+.text-card h2 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.text-card p {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #333;
+}
+
+.text-card .signature {
+  font-size: 11px;
+  color: #666;
+  margin-top: 20px;
+}
+
+/* RIGHT IMAGE CONTAINER */
+.image-container {
+  flex-grow: 1;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  display: block;
+  border-radius: 2px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
